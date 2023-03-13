@@ -74,7 +74,7 @@ namespace Tetris
             }
         }
 
-        private int ClearFullRows()
+        public int ClearFullRows()
         {
             int cleared = 0;
             for (int r = Rows - 1; r >= 0; r--)
